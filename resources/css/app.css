@@ -1,3 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;1000&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css");
+@import url("lucide-static/font/lucide.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-color: #a17764;
+}
+
+.subtitle {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 3.5em;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #EFE9E4;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .cards-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container {
+        width: 100%;
+        margin-bottom: 40px;
+        /* Aggiunge un margine sotto ogni card */
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 16px 16px 40px 16px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+    border: 2px dashed white; /* Aggiunto il bordo bianco tratteggiato */
+}
+
+.card-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.card-price {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.card-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-benefits {
+    list-style-type: none;
+    padding: 0;
+    color: #888;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-benefits li {
+    margin-bottom: 10px;
+}
+
+.card-benefits li:last-child {
+    margin-bottom: 0;
+}
+
+.subscribe-button {
+    position: absolute;
+    bottom: -25px;
+    z-index: 2;
+    width: 240px;
+    height: 70px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+}
+
+.glow-membership {
+    background-color: #FFF9E6;
+    color: #000;
+}
+
+.sauna-membership {
+    background-color: #FFE5E0;
+    color: #000;
+}
+
+.cryo-package {
+    background-color: #E6F5FF;
+    color: #000;
+}
+
+.infinity-sculpt-package {
+    background-color: #F2E6FF;
+    color: #000;
+}
+
+.glow-membership, .sauna-membership, .cryo-package, .infinity-sculpt-package {
+    border-top-left-radius: 200px; /* Adjust this value as needed */
+    border-top-right-radius: 200px; /* Adjust this value as needed */
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 75%;
+    /* This is the aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
