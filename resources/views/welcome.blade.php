@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="en" class="relative scroll-smooth">
+
 <head>
     <meta charset="utf-8" />
     <title>BodyCo</title>
@@ -15,16 +18,21 @@
 
 </head>
 
-@livewire('navbar')
-<!-- Hero Section -->
-@livewire('hero-section')
-<!-- Services Section -->
-@livewire('services')
-<!-- Membership Section -->
-@livewire('membership-component')
-<!-- Visit Us -->
-@include('components.visitus')
-<!-- Contact Us -->
-@livewire('contact-us')
-<!-- Footer -->
-@include('components.footer')
+<body class="overflow-x-hidden bg-base-100 font-body text-sm text-base-content antialiased">
+    <!-- Navbar -->
+    @livewire('navbar')
+    <!-- Hero Section -->
+    @livewire('hero-section')
+    <!-- Services Section 
+    @livewire('services') -->
+    <!-- Membership Section -->
+    @livewire('membership-component')
+    <!-- Visit Us -->
+    @include('components.visitus')
+    <!-- Contact Us -->
+    @livewire('contact-us')
+    <!-- Footer -->
+    @include('components.footer')
+</body>
+
+</html>

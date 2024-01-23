@@ -1,4 +1,4 @@
-<div id="navbar-wrapper" class="top-0 z-50 bg-[#A97561] lg:bg-opacity-90 fixed lg:backdrop-blur-lg fixed w-full"
+<div id="navbar-wrapper" class="sticky top-0 z-30 bg-[#A97561] lg:bg-opacity-90 lg:fixed lg:backdrop-blur-lg w-full"
     x-data="{ atTop: false }" :class="{ 'border-base-content/10': atTop, 'border-transparent': !atTop}"
     @scroll.window="atTop = (window.pageYOffset < 30) ? false: true">
     <div class="container">
@@ -11,43 +11,43 @@
                 </div>
 
                 <!-- Navbar Brand logo -->
-                <img class="w-24 md:w-32 lg:w-48 h-auto" src="/images/logo-removed.png" alt="Body & Co" />
+                <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png" alt="Body & Co" />
+
             </div>
 
-            <div class="navbar-center hidden lg:flex text-neutral">
+            <div class="navbar-center hidden lg:flex ">
                 <ul class="menu menu-horizontal menu-sm gap-2 px-1">
                     <li class="font-medium"><a href="#home">Home</a></li>
-                    <li class="font-medium"><a href="#features">Features</a></li>
-                    <li class="font-medium"><a href="#integrations">Integrations</a></li>
-                    <li class="font-medium"><a href="#pricing">Pricing</a></li>
-                    <li class="font-medium"><a href="#faq">FAQ</a></li>
+                    <li class="font-medium"><a href="#services">Our Services</a></li>
+                    <li class="font-medium"><a href="#aftercare">Aftercare</a></li>
+                    <li class="font-medium"><a href="#book">Book Now</a></li>
+                    <li class="font-medium"><a href="#price">Price List</a></li>
+                    <li class="font-medium"><a href="#contacts">Contacts</a></li>
+                    <li class="font-medium"><a href="#membership">Membership</a></li>
                 </ul>
-            </div>
-
-            <div class="navbar-end gap-3 text-neutral">
-                <a class="btn btn-ghost btn-sm">Register</a>
-                <a class="btn btn-primary btn-sm">Login</a>
             </div>
         </nav>
 
         <!-- sm screen menu (drawer) -->
-        <div class="drawer text-neutral text-neutral">
+        <div class="drawer">
             <input id="my-drawer" type="checkbox" class="drawer-toggle" />
             <div class="drawer-side">
                 <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"
-                    style="background-color: transparent;"></label>
+                    style="background-color: transparent"></label>
                 <ul
                     class="menu min-h-full w-80 gap-2 bg-transparent p-4 text-base-content text-neutral backdrop-blur-lg">
                     <!-- Navbar Brand logo -->
                     <li class="font-medium">
-                        <img class="w-24 md:w-32 lg:w-48 h-auto" src="/images/logo-removed.png" alt="Body & Co" />
+                        <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png" alt="Body & Co" />
                     </li>
 
                     <li class="font-medium"><a href="#home">Home</a></li>
-                    <li class="font-medium"><a href="#features">Features</a></li>
-                    <li class="font-medium"><a href="#integrations">Integrations</a></li>
-                    <li class="font-medium"><a href="#pricing">Pricing</a></li>
-                    <li class="font-medium"><a href="#faq">FAQ</a></li>
+                    <li class="font-medium"><a href="#services">Our Services</a></li>
+                    <li class="font-medium"><a href="#aftercare">Aftercare</a></li>
+                    <li class="font-medium"><a href="#book">Book Now</a></li>
+                    <li class="font-medium"><a href="#price">Price List</a></li>
+                    <li class="font-medium"><a href="#contacts">Contacts</a></li>
+                    <li class="font-medium"><a href="#membership">Membership</a></li>
                 </ul>
             </div>
         </div>
