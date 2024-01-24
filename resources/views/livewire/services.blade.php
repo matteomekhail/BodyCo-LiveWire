@@ -1,23 +1,27 @@
-<section class=" bg-[#A97561] flex items-center shadow-xl">
-    <section class="pt-20 pb-20 grid grid-cols-3 grid-rows-2 gap-y-10 gap-x-20 pl-64 w-1/2">
-        <div class="w-56 h-56">
-            <img src="images/SpayTan.jpg" class="w-full h-full object-cover rounded-full" />
-        </div>
-        <div class="w-56 h-56">
-            <img src="images/lush.jpg" class="w-full h-full object-cover rounded-full" />
-        </div>
-        <div class="w-56 h-56 bg-transparent">
-            <img src="images/brown2.jpg" class="w-full h-full object-cover rounded-full" />
-        </div>
-        <div class="w-56 h-56">
-            <img src="images/sauna.jpg" class="w-full h-full object-cover rounded-full" />
-        </div>
-        <div class="w-56 h-56">
-            <img src="images/cryo.jpg" class="w-full h-full object-cover rounded-full" />
-        </div>
-        <div class="w-56 h-56">
-            <img src="images/sculpt.jpg" class="w-full h-full object-cover rounded-full" />
-        </div>
-    </section>
-    <h1 class="text-center text-6xl w-1/2 text-[#EFE9E4]">Our Services</h1>
-</section>
+<div>
+    <h2 class="mt-12 text-center text-5xl font-semibold text-base-content/60 ">
+        Our Services
+    </h2>
+
+    <div class="mt-12 grid grid-cols-2 justify-center gap-8 sm:grid-cols-3 md:grid-cols-4">
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="/images/SpayTan.jpg" alt="google logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="images/lush.jpg" alt="microsoft logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="images/brown2.jpg" alt="netflix logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="images/sauna.jpg" alt="spotify logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="images/cryo.jpg" alt="paypal logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="images/sculpt.jpg" alt="paypal logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="/images/logo/paypal.svg" alt="paypal logo" />
+        <img class="mx-auto h-56 w-56 cursor-pointer object-cover rounded-full transition-all duration-500 sm:inline"
+            src="/images/logo/paypal.svg" alt="paypal logo" />
+    </div>
+    <br>
+    <br>
+    <br>
+</div>

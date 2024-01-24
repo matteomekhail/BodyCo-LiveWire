@@ -23,8 +23,8 @@
     @livewire('navbar')
     <!-- Hero Section -->
     @livewire('hero-section')
-    <!-- Services Section 
-    @livewire('services') -->
+    <!-- Services Section  -->
+    @livewire('services')
     <!-- Membership Section -->
     @livewire('membership-component')
     <!-- Visit Us -->

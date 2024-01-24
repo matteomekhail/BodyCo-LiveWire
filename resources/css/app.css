@@ -13,7 +13,9 @@
 .subtitle {
     font-size: 1em;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: var(--primary-color);
 }
 
 .title {
@@ -27,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     padding: 100px;
-    background-color: #EFE9E4;
+    background-color: #efe9e4;
 }
 
 .cards-row {
@@ -135,26 +137,29 @@
 }
 
 .glow-membership {
-    background-color: #FFF9E6;
+    background-color: #fff9e6;
     color: #000;
 }
 
 .sauna-membership {
-    background-color: #FFE5E0;
+    background-color: #ffe5e0;
     color: #000;
 }
 
 .cryo-package {
-    background-color: #E6F5FF;
+    background-color: #e6f5ff;
     color: #000;
 }
 
 .infinity-sculpt-package {
-    background-color: #F2E6FF;
+    background-color: #f2e6ff;
     color: #000;
 }
 
-.glow-membership, .sauna-membership, .cryo-package, .infinity-sculpt-package {
+.glow-membership,
+.sauna-membership,
+.cryo-package,
+.infinity-sculpt-package {
     border-top-left-radius: 200px; /* Adjust this value as needed */
     border-top-right-radius: 200px; /* Adjust this value as needed */
 }
