@@ -22,8 +22,8 @@
                     <li class="font-medium"><a href="/#services">Our Services</a></li>
                     <li class="font-medium"><a href="/aftercare">Aftercare</a></li>
                     <li class="font-medium"><a href="/book">Book Now</a></li>
-                    <li class="font-medium"><a href="/#contacts">Contacts</a></li>
                     <li class="font-medium"><a href="/#membership">Membership</a></li>
+                    <li class="font-medium"><a href="/#contacts">Contacts</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,13 +42,12 @@
                             alt="Body & Co" />
                     </li>
 
-                    <li class="font-medium"><a href="#home">Home</a></li>
-                    <li class="font-medium"><a href="#services">Our Services</a></li>
-                    <li class="font-medium"><a href="#aftercare">Aftercare</a></li>
-                    <li class="font-medium"><a href="#book">Book Now</a></li>
-                    <li class="font-medium"><a href="#price">Price List</a></li>
-                    <li class="font-medium"><a href="#contacts">Contacts</a></li>
-                    <li class="font-medium"><a href="#membership">Membership</a></li>
+                    <li class="font-medium"><a href="/">Home</a></li>
+                    <li class="font-medium"><a href="/#services">Our Services</a></li>
+                    <li class="font-medium"><a href="/aftercare">Aftercare</a></li>
+                    <li class="font-medium"><a href="/book">Book Now</a></li>
+                    <li class="font-medium"><a href="/#membership">Membership</a></li>
+                    <li class="font-medium"><a href="/#contacts">Contacts</a></li>
                 </ul>
             </div>
         </div>

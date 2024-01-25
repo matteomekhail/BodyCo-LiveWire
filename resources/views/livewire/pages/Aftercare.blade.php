@@ -20,7 +20,7 @@
 
 @livewire('navbar')
 
-@include('components.AfterCareText')
+@include('components.aftercareText')
 
 @include('components.footer')
 

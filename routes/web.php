@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome');
 
 Route::get('/aftercare', function () {
-    return view('livewire.pages.aftercare');
+    return view('livewire.pages.Aftercare');
 });
 
 Route::get('/book', function () {
-    return view('livewire.pages.booknow');
+    return view('livewire.pages.BookNow');
 });
 
 require __DIR__.'/auth.php';
