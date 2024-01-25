@@ -11,19 +11,19 @@
                 </div>
 
                 <!-- Navbar Brand logo -->
-                <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png" alt="Body & Co" />
+                <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png"
+                    alt="Body & Co" />
 
             </div>
 
             <div class="navbar-center hidden lg:flex ">
                 <ul class="menu menu-horizontal menu-sm gap-2 px-1">
-                    <li class="font-medium"><a href="#home">Home</a></li>
-                    <li class="font-medium"><a href="#services">Our Services</a></li>
-                    <li class="font-medium"><a href="#aftercare">Aftercare</a></li>
-                    <li class="font-medium"><a href="#book">Book Now</a></li>
-                    <li class="font-medium"><a href="#price">Price List</a></li>
-                    <li class="font-medium"><a href="#contacts">Contacts</a></li>
-                    <li class="font-medium"><a href="#membership">Membership</a></li>
+                    <li class="font-medium"><a href="/">Home</a></li>
+                    <li class="font-medium"><a href="/#services">Our Services</a></li>
+                    <li class="font-medium"><a href="/aftercare">Aftercare</a></li>
+                    <li class="font-medium"><a href="/book">Book Now</a></li>
+                    <li class="font-medium"><a href="/#contacts">Contacts</a></li>
+                    <li class="font-medium"><a href="/#membership">Membership</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,7 +38,8 @@
                     class="menu min-h-full w-80 gap-2 bg-transparent p-4 text-base-content text-neutral backdrop-blur-lg">
                     <!-- Navbar Brand logo -->
                     <li class="font-medium">
-                        <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png" alt="Body & Co" />
+                        <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png"
+                            alt="Body & Co" />
                     </li>
 
                     <li class="font-medium"><a href="#home">Home</a></li>
@@ -53,3 +54,14 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelector('a[href="#services"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        const servicesElement = document.querySelector('#services');
+        const y = servicesElement.getBoundingClientRect().top + window.pageYOffset - 100; // 100 is the offset
+        window.scrollTo({top: y, behavior: 'smooth'});
+    });
+});
+</script>

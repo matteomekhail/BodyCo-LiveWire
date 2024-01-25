@@ -15,12 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+Route::get('/aftercare', function () {
+    return view('livewire.pages.aftercare');
+});
 
-Route::view('profile', 'profile')
-    ->middleware(['auth'])
-    ->name('profile');
+Route::get('/book', function () {
+    return view('livewire.pages.booknow');
+});
 
 require __DIR__.'/auth.php';

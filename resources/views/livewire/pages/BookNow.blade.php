@@ -19,22 +19,11 @@
 </head>
 
 <body class="overflow-x-hidden bg-base-100 font-body text-sm text-base-content antialiased">
-    <!-- Navbar -->
-    @livewire('navbar')
-    <!-- Hero Section -->
-    @livewire('hero-section')
-    <!-- Services Section  -->
-    @livewire('services')
-    <!-- Membership Section -->
-    <div id="membership" class="pt-20"></div>
-    @livewire('membership-component')
-    <!-- Visit Us -->
-    @include('components.visitus')
-    <!-- Contact Us -->
-    <div id="contacts" class="pt-20"></div>
-    @livewire('contact-us')
-    <!-- Footer -->
-    @include('components.footer')
-</body>
 
-</html>
+    @livewire('navbar')
+
+    <div class="flex items-center justify-center min-h-screen py-40">
+        <iframe src="https://bookings.gettimely.com/bodycobeautyandwellnessclinic/bb/book" scrolling="no"
+            id="timelyWidget" style="width:600px;height:600px;border:none"></iframe>
+    </div>
+</body>

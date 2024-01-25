@@ -15,7 +15,8 @@
                     look and feel your best. Your journey to beauty and wellness starts here.
                 </p>
                 <div class="mt-16 flex justify-center">
-                    <button class="btn btn-primary text-lg px-4 py-2 flex items-center justify-center">Book Now</button>
+                    <button class="btn btn-primary text-lg px-4 py-2 flex items-center justify-center" id="services"
+                        onclick="location.href='/booknow'">Book Now</button>
                 </div>
             </div>
         </div>
