@@ -1,4 +1,4 @@
-<div>
+<div class="bg-[#A97561] ">
     <h2 class="mt-12 text-center text-5xl font-semibold text-base-content/60 ">
         Our Services
     </h2>

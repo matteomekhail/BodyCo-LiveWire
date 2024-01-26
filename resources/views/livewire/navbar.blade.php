@@ -53,14 +53,3 @@
         </div>
     </div>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    document.querySelector('a[href="#services"]').addEventListener('click', function(e) {
-        e.preventDefault();
-        const servicesElement = document.querySelector('#services');
-        const y = servicesElement.getBoundingClientRect().top + window.pageYOffset - 100; // 100 is the offset
-        window.scrollTo({top: y, behavior: 'smooth'});
-    });
-});
-</script>
