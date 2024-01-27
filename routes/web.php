@@ -19,6 +19,10 @@ Route::get('/aftercare', function () {
     return view('livewire.pages.Aftercare');
 });
 
+Route::get('/MembershipBooking', function () {
+    return view('livewire.pages.MembershipBooking');
+});
+
 Route::get('/book', function () {
     return view('livewire.pages.BookNow');
 });
