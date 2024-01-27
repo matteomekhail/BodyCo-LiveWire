@@ -27,13 +27,11 @@
     <!-- Services Section  -->
     @livewire('services')
     <!-- Membership Section -->
-    <div id="membership" class="pt-20"></div>
     @livewire('membership-component')
     <!-- Visit Us -->
     @include('components.visitus')
-    <!-- Contact Us -->
-    <div id="contacts" class="pt-20"></div>
-    @livewire('contact-us')
+    <!-- Contact Us
+    @livewire('contact-us') -->
     <!-- Footer -->
     @include('components.footer')
 </body>

@@ -1,16 +1,10 @@
-<footer class="relative after:shadow-md after:absolute bg-[#EFE9E4]">
+<footer class="relative after:shadow-md after:absolute bg-[#EFE9E4] pt-12" id="visitUs">
     <div class="container mx-auto w-full max-w-screen-xl px-4 ">
         <div class="flex flex-wrap justify-between mb-8">
 
             <div>
                 <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Body & CO</h2>
                 <ul class="font-medium text-gray-500">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">About</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Blog</a>
-                    </li>
                 </ul>
             </div>
             <div>
@@ -18,12 +12,6 @@
                 <ul class="font-medium text-gray-500">
                     <li class="mb-4">
                         <a href="#" class="hover:underline">Instagram</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Facebook</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Contact Us</a>
                     </li>
                 </ul>
             </div>

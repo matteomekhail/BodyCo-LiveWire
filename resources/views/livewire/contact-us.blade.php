@@ -1,4 +1,4 @@
-<section class=" bg-[#EFE9E4] shadow-sm">
+<section class=" bg-[#EFE9E4] shadow-sm" id="contacts">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#a17764] text-center">
             Contact Us

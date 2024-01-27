@@ -1,5 +1,5 @@
 <div id="navbar-wrapper" class="sticky top-0 z-30 bg-[#A97561] lg:bg-opacity-90 lg:fixed lg:backdrop-blur-lg w-full"
-    x-data="{ atTop: false }" :class="{ 'border-base-content/10': atTop, 'border-transparent': !atTop}"
+    x-data="{ atTop: false }" :class="{ 'border-base-content/10': atTop, 'border-transparent': !atTop }"
     @scroll.window="atTop = (window.pageYOffset < 30) ? false: true">
     <div class="container">
         <nav class="navbar px-0">
@@ -23,7 +23,7 @@
                     <li class="font-medium"><a href="/aftercare">Aftercare</a></li>
                     <li class="font-medium"><a href="/book">Book Now</a></li>
                     <li class="font-medium"><a href="/#membership">Membership</a></li>
-                    <li class="font-medium"><a href="/#contacts">Contacts</a></li>
+                    <li class="font-medium"><a href="/#visitUs">Visit Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,9 +47,27 @@
                     <li class="font-medium"><a href="/aftercare">Aftercare</a></li>
                     <li class="font-medium"><a href="/book">Book Now</a></li>
                     <li class="font-medium"><a href="/#membership">Membership</a></li>
-                    <li class="font-medium"><a href="/#contacts">Contacts</a></li>
+                    <li class="font-medium"><a href="/#visitUs">Visit Us</a></li>
                 </ul>
             </div>
         </div>
     </div>
+    <script>
+        document.querySelector('a[href="/#membership"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: document.querySelector('#membership').offsetTop -
+                100, // 100 is the offset from the top
+                behavior: 'smooth'
+            });
+        });
+
+        document.querySelector('a[href="/#contacts"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: document.querySelector('#contacts').offsetTop - 100, // 100 is the offset from the top
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </div>

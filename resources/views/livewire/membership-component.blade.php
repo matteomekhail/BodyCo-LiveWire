@@ -1,4 +1,4 @@
-<section class="cards-container">
+<section class="cards-container" id="membership">
     <h1 class="title">Memberships <br><br> & <br><br> Packages</h1>
     <h2 class="subtitle">Prices for membership and packages</h2>
     <div class="cards-row">
