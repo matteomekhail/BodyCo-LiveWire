@@ -13,6 +13,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/card3d@2.6.5/dist/card3d.min.js"></script>
+    @livewireScripts()
 
 </head>
 
@@ -27,4 +28,5 @@
         @livewire('login-register-form')
     @endguest
 
+    @include('components.footer')
 </body>

@@ -35,7 +35,7 @@
                 <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"
                     style="background-color: transparent"></label>
                 <ul
-                    class="menu min-h-full w-80 gap-2 bg-transparent p-4 text-base-content text-neutral backdrop-blur-lg">
+                    class="menu min-h-full w-80 gap-2 bg-transparent p-4 text-neutral backdrop-blur-lg">
                     <!-- Navbar Brand logo -->
                     <li class="font-medium">
                         <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png"
@@ -62,10 +62,10 @@
             });
         });
 
-        document.querySelector('a[href="/#contacts"]').addEventListener('click', function(e) {
+        document.querySelector('a[href="/#visitUs"]').addEventListener('click', function(e) {
             e.preventDefault();
             window.scrollTo({
-                top: document.querySelector('#contacts').offsetTop - 100, // 100 is the offset from the top
+                top: document.querySelector('#visitUs').offsetTop - 100, // 100 is the offset from the top
                 behavior: 'smooth'
             });
         });
