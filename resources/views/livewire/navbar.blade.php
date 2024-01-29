@@ -53,21 +53,29 @@
         </div>
     </div>
     <script>
+window.onload = function() {
+    var membershipElement = document.querySelector('#membership');
+    var visitUsElement = document.querySelector('#visitUs');
+
+    if (membershipElement) {
         document.querySelector('a[href="/#membership"]').addEventListener('click', function(e) {
             e.preventDefault();
             window.scrollTo({
-                top: document.querySelector('#membership').offsetTop -
-                100, // 100 is the offset from the top
+                top: membershipElement.offsetTop - 100, // 100 is the offset from the top
                 behavior: 'smooth'
             });
         });
+    }
 
+    if (visitUsElement) {
         document.querySelector('a[href="/#visitUs"]').addEventListener('click', function(e) {
             e.preventDefault();
             window.scrollTo({
-                top: document.querySelector('#visitUs').offsetTop - 100, // 100 is the offset from the top
+                top: visitUsElement.offsetTop - 100, // 100 is the offset from the top
                 behavior: 'smooth'
             });
         });
+    }
+}
     </script>
 </div>
