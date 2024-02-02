@@ -15,17 +15,6 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Legal</h2>
-                <ul class="font-medium text-gray-500">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Privacy Policy</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                    </li>
-                </ul>
-            </div>
 
         </div>
         <div class="px-4 py-6 md:flex md:items-center md:justify-center">
