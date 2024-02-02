@@ -42,8 +42,8 @@ class LoginRegisterForm extends Component
             info('Register method was called');
             // Validazione dei dati del form
             $this->validate([
-                'name' => ['required', 'string', 'max:255', 'alpha'],
-                'surname' => ['required', 'string', 'max:255', 'alpha'],
+                'name' => ['required', 'string', 'max:255'],
+                'surname' => ['required', 'string', 'max:255'],
                 'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
                 'password' => ['required', 'string', 'min:8', 'confirmed'],
             ]);

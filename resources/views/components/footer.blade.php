@@ -3,12 +3,12 @@
         <div class="flex flex-wrap justify-between mb-8">
 
             <div>
-                <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Body & CO</h2>
+                <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">BodyCo Beauty & Wellness</h2>
                 <ul class="font-medium text-gray-500">
                 </ul>
             </div>
             <div>
-                <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Help center</h2>
+                <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Socials</h2>
                 <ul class="font-medium text-gray-500">
                     <li class="mb-4">
                         <a href="#" class="hover:underline">Instagram</a>

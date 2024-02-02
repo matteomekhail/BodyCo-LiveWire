@@ -21,7 +21,9 @@
 
     @livewire('navbar')
     @auth
-        // implementa rimanda a home
+        <script type="text/javascript">
+            window.location.href = "{{ url('/home') }}";
+        </script>
     @endauth
 
     @guest
