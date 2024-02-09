@@ -26,8 +26,7 @@
     @livewire('hero-section')
     <!-- Services Section  -->
     @livewire('services')
-    <!-- Membership Section -->
-    @livewire('membership-component')
+    <!-- Membership Section  -->
     <!-- Visit Us -->
     @include('components.visitus')
     <!-- Contact Us

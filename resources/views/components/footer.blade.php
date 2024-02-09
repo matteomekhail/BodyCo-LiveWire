@@ -11,7 +11,7 @@
                 <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Socials</h2>
                 <ul class="font-medium text-gray-500">
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Instagram</a>
+                        <a href="https://www.instagram.com/bodycobeautyandwellness" class="hover:underline">Instagram</a>
                     </li>
                 </ul>
             </div>
