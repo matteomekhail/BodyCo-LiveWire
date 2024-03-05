@@ -34,39 +34,6 @@
                         prevent you from appreciating your full results </li>
                 </ul>
             </div>
-            <!-- Lip Blush -->
-            <div class="w-full md:pr-10 md:text-left">
-                <h2 class="text-2xl font-semibold mb-4 text-[#A97561]">Lip Blush</h2>
-                <h3 class="text-xl font-semibold mb-2 text-black">What to expect:</h3>
-                <p class="mb-4 text-black">
-                    Immediately after your lip blush treatment your lips will appear more swollen and darker than
-                    expected.
-                    The colour will soften up to 50% in the next 7-10 days. Your lips will feel tingly and quite tender
-                    and
-                    dry. Your lips will also feel and look swollen after the treatment. This will only last for a few
-                    days.
-                    You can use an ice pack 3- 4 times a day to soothe your lips although be sure to use a clean barrier
-                    like a tissue between the ice pack and your lips to avoid infection.
-                </p>
-                <h3 class="text-xl font-semibold mb-2 text-black">After care instructions:</h3>
-                <ul class="list-disc list-inside text-black">
-                    <li>You must keep your lips hydrated and apply the aftercare balm repeatedly throughout the day for
-                        7-10
-                        days.</li>
-                    <li>Avoid the sun for 14 days and be sure to protect your lips using strong SPF.</li>
-                    <li>Do not use any cleansers, face creams or soaps containing glycolic, hydroxyl or fruit acids on
-                        or
-                        near your lips.</li>
-                    <li>Do not pick or rub your lips as your lips will peel during this process. It can cause infection
-                        and
-                        affect the pigment.</li>
-                    <li>Do not use any laser hair removal or hair removal creams or wax on or near your lips until
-                        completely healed.</li>
-                    <li>Only drink from a straw for the first few days.</li>
-                    <li>Avoid all spicy, salty and citrus foods for the first few days.</li>
-                    <li>Be very cautious when brushing your teeth and no kissing for 5 days.</li>
-                </ul>
-            </div>
             <!-- Lash Lift -->
             <div class="w-full md:pr-10 md:text-left">
                 <h2 class="text-2xl font-semibold mb-4 text-[#A97561]">Lash Lift</h2>

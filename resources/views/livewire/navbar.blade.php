@@ -1,4 +1,4 @@
-<div id="navbar-wrapper" class="sticky top-0 bg-[#A97561] lg:bg-opacity-90 lg:fixed lg:backdrop-blur-lg w-full"
+<div id="navbar-wrapper" class="sticky top-0 bg-[#EFE9E3] lg:bg-opacity-90 lg:fixed lg:backdrop-blur-lg w-full"
     x-data="{ atTop: false }" :class="{ 'border-base-content/10': atTop, 'border-transparent': !atTop }"
     @scroll.window="atTop = (window.pageYOffset < 30) ? false: true">
     <div class="container">
