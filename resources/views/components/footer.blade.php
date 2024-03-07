@@ -1,4 +1,4 @@
-<footer class="relative after:shadow-md after:absolute bg-[#EFE9E3] pt-12" id="visitUs">
+<footer class="relative after:shadow-md after:absolute bg-[#A97561] pt-12" id="visitUs">
     <div class="container mx-auto w-full max-w-screen-xl px-4 ">
         <div class="flex flex-wrap justify-between mb-8">
 
