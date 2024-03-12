@@ -9,28 +9,9 @@
             class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
             <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
                 <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Lash</h1>
-
-                </div>
-            </div>
-
-        </div>
-        <div
-            class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
-            <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
-                <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Brows</h1>
-
-                </div>
-            </div>
-
-        </div>
-        <div
-            class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
-            <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
-                <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Spray Tan</h1>
-
+                    <a href="/lash">
+                        <h1 class="mt-8 text-2xl">Lash</h1>
+                    </a>
                 </div>
             </div>
         </div>
@@ -38,8 +19,9 @@
             class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
             <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
                 <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl ">Sauna</h1>
-
+                    <a href="/brows">
+                        <h1 class="mt-8 text-2xl">Brows</h1>
+                    </a>
                 </div>
             </div>
         </div>
@@ -47,8 +29,9 @@
             class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
             <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
                 <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Cryo <br> [COMING SOON]</h1>
-
+                    <a href="/spray">
+                        <h1 class="mt-8 text-2xl">Spray Tan</h1>
+                    </a>
                 </div>
             </div>
         </div>
@@ -56,28 +39,50 @@
             class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
             <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
                 <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Sculpt</h1>
-
+                    <a href="/sauna">
+                        <h1 class="mt-8 text-2xl">Sauna</h1>
+                    </a>
                 </div>
             </div>
-
         </div>
         <div
             class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
             <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
                 <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Waxing & Laser</h1>
+                    <h1 class="mt-8 text-2xl">Cryo <br> [COMING SOON]</h1>
 
                 </div>
             </div>
-
         </div>
-        <div class="sm:inline-flex mx-auto h-auto w-56 cursor-pointer transition-all duration-500 flex flex-col items-center justify-center text-center">
+<div
+    class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
+    <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
+        <div class="h-full w-full flex items-center justify-center">
+            <a href="/sculpt">
+                <h1 class="mt-8 text-2xl">Sculpt</h1>
+            </a>
+        </div>
+    </div>
+</div>
+        <div
+            class="mx-auto h-auto w-56 cursor-pointer transition-all duration-500 sm:inline flex flex-col items-center justify-center text-center">
             <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
                 <div class="h-full w-full flex items-center justify-center">
-                            <h1 class="mt-8 text-2xl">Facials</h1>
+                    <a href="/waxing">
+                        <h1 class="mt-8 text-2xl">Waxing & Laser</h1>
+                    </a>
                 </div>
             </div>
         </div>
+<div
+    class="sm:inline-flex mx-auto h-auto w-56 cursor-pointer transition-all duration-500 flex flex-col items-center justify-center text-center">
+    <div class="h-56 w-56 object-cover p-4 flex items-center justify-center">
+        <div class="h-full w-full flex items-center justify-center">
+            <a href="/facial">
+                <h1 class="mt-8 text-2xl">Facials</h1>
+            </a>
+        </div>
+    </div>
+</div>
     </div>
 </div>

@@ -26,5 +26,26 @@ Route::get('/MembershipBooking', function () {
 Route::get('/book', function () {
     return view('livewire.pages.BookNow');
 });
+Route::get('/lash', function () {
+    return view('livewire.pages.lashPage');
+});
+Route::get('/brows', function () {
+    return view('livewire.pages.browsPage');
+});
+Route::get('/waxing', function () {
+    return view('livewire.pages.waxingPage');
+});
+Route::get('/spray', function () {
+    return view('livewire.pages.sprayPage');
+});
+Route::get('/sauna', function () {
+    return view('livewire.pages.saunaPage');
+});
+Route::get('/facial', function () {
+    return view('livewire.pages.facialPage');
+});
+Route::get('/sculpt', function () {
+    return view('livewire.pages.sculptPage');
+});
 
 require __DIR__.'/auth.php';
