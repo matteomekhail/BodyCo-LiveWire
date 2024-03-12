@@ -19,7 +19,7 @@
         </div>
         <div class="px-4 py-6 md:flex md:items-center md:justify-center">
             <span class="text-sm text-black dark:text-black sm:text-center">
-                &copy;{{ date('Y') }} <a href="https://google.com/">Body & Co Beauty & Wellness</a>. All Rights
+                &copy;{{ date('Y') }} <a href="https://www.instagram.com/bodycobeautyandwellness/">Body & Co Beauty & Wellness</a>. All Rights
                 Reserved.
             </span>
         </div>
