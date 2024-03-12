@@ -22,7 +22,7 @@
     @livewire('navbar')
     <section class="py-8 lg:py-20 bg-[#EFE9E4] z-10 shadow-2xl" id="home">
         <div class="container mx-auto">
-            <h1 class="text-4xl font-bold text-center pt-40">
+            <h1 class="text-4xl font-bold text-center lg:pt-40">
                 Sauna
             </h1>
             <div class="mt-8">

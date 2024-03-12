@@ -4,12 +4,11 @@
     <div class="container">
         <nav class="navbar px-0">
             <div class="navbar-start gap-2">
-                <div class="flex-none lg:hidden">
-                    <label for="my-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
-                        <i class="icon-menu inline-block text-xl"></i>
-                    </label>
-                </div>
-
+<div class="flex-none lg:hidden">
+    <label for="my-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
+        <i class="fas fa-bars text-xl text-black"></i>
+    </label>
+</div>
                 <!-- Navbar Brand logo -->
                 <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png"
                     alt="Body & Co" />
@@ -34,8 +33,7 @@
             <div class="drawer-side">
                 <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"
                     style="background-color: transparent"></label>
-                <ul
-                    class="menu min-h-full w-80 gap-2 bg-transparent p-4 text-neutral backdrop-blur-lg">
+                <ul class="menu min-h-full w-80 gap-2 bg-transparent p-4 text-neutral backdrop-blur-lg">
                     <!-- Navbar Brand logo -->
                     <li class="font-medium">
                         <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png"
@@ -53,29 +51,29 @@
         </div>
     </div>
     <script>
-window.onload = function() {
-    var membershipElement = document.querySelector('#membership');
-    var visitUsElement = document.querySelector('#visitUs');
+        window.onload = function() {
+            var membershipElement = document.querySelector('#membership');
+            var visitUsElement = document.querySelector('#visitUs');
 
-    if (membershipElement) {
-        document.querySelector('a[href="/#membership"]').addEventListener('click', function(e) {
-            e.preventDefault();
-            window.scrollTo({
-                top: membershipElement.offsetTop - 100, // 100 is the offset from the top
-                behavior: 'smooth'
-            });
-        });
-    }
+            if (membershipElement) {
+                document.querySelector('a[href="/#membership"]').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: membershipElement.offsetTop - 100, // 100 is the offset from the top
+                        behavior: 'smooth'
+                    });
+                });
+            }
 
-    if (visitUsElement) {
-        document.querySelector('a[href="/#visitUs"]').addEventListener('click', function(e) {
-            e.preventDefault();
-            window.scrollTo({
-                top: visitUsElement.offsetTop - 100, // 100 is the offset from the top
-                behavior: 'smooth'
-            });
-        });
-    }
-}
+            if (visitUsElement) {
+                document.querySelector('a[href="/#visitUs"]').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: visitUsElement.offsetTop - 100, // 100 is the offset from the top
+                        behavior: 'smooth'
+                    });
+                });
+            }
+        }
     </script>
 </div>

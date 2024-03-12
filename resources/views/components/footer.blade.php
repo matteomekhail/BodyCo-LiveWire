@@ -1,4 +1,4 @@
-<footer class="relative after:shadow-md after:absolute bg-[#A97561] pt-12" id="visitUs">
+<footer class="after:shadow-md after:absolute bg-[#A97561] pt-12 relative inset-x-0 bottom-0" id="visitUs">
     <div class="container mx-auto w-full max-w-screen-xl px-4 ">
         <div class="flex flex-wrap justify-between mb-8">
 
@@ -19,7 +19,7 @@
         </div>
         <div class="px-4 py-6 md:flex md:items-center md:justify-center">
             <span class="text-sm text-black dark:text-black sm:text-center">
-                &copy;{{ date('Y') }} <a href="https://google.com/">Body & Co Beauty & Wellness</a>. All Rights
+                &copy;{{ date('Y') }} <a href="zhttps://google.com/">Body & Co Beauty & Wellness</a>. All Rights
                 Reserved.
             </span>
         </div>

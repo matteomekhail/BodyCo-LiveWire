@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "daisyui": "^4.6.0",
+        "font-awesome": "^4.7.0",
         "glob": "^10.3.10",
         "lucide": "^0.314.0",
         "lucide-static": "^0.314.0",

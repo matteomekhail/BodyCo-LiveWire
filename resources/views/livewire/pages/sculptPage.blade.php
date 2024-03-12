@@ -22,27 +22,30 @@
     @livewire('navbar')
     <section class="py-8 lg:py-20 bg-[#EFE9E4] z-10 shadow-2xl" id="home">
         <div class="container mx-auto">
-            <h1 class="text-4xl font-bold text-center pt-40">
+            <h1 class="text-4xl font-bold text-center lg:pt-40">
                 Sculpt
             </h1>
-<div class="mt-8">
-    <table class="w-full table-auto">
-        <thead>
-            <tr>
-                <th class="px-4 py-2 text-left border-b-2 border-gray-300" style="width: 50%;">Sculpt Services</th>
-                <th class="px-4 py-2 text-center border-b-2 border-gray-300" style="width: 25%;">Minutes/hours of services</th>
-                <th class="px-4 py-2 text-right border-b-2 border-gray-300" style="width: 25%;">Service pricing</th>
-            </tr>
-        </thead>
-<tbody>
-    <tr>
-        <td class="border px-4 py-2 text-left">Infinity Sculpt</td>
-        <td class="border px-4 py-2 text-center">30 minutes</td>
-        <td class="border px-4 py-2 text-right">$120</td>
-    </tr>
-</tbody>
-    </table>
-</div>
+            <div class="mt-8">
+                <table class="w-full table-auto">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-2 text-left border-b-2 border-gray-300" style="width: 50%;">Sculpt
+                                Services</th>
+                            <th class="px-4 py-2 text-center border-b-2 border-gray-300" style="width: 25%;">
+                                Minutes/hours of services</th>
+                            <th class="px-4 py-2 text-right border-b-2 border-gray-300" style="width: 25%;">Service
+                                pricing</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border px-4 py-2 text-left">Infinity Sculpt</td>
+                            <td class="border px-4 py-2 text-center">30 minutes</td>
+                            <td class="border px-4 py-2 text-right">$120</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
