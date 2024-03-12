@@ -1,14 +1,14 @@
-<div id="navbar-wrapper" class="sticky top-0 bg-[#A97561] lg:bg-opacity-90 lg:fixed lg:backdrop-blur-lg w-full"
+<div id="navbar-wrapper" class="sticky top-0 z-50 bg-[#A97561] lg:bg-opacity-90 lg:fixed lg:backdrop-blur-lg w-full"
     x-data="{ atTop: false }" :class="{ 'border-base-content/10': atTop, 'border-transparent': !atTop }"
     @scroll.window="atTop = (window.pageYOffset < 30) ? false: true">
     <div class="container">
         <nav class="navbar px-0">
             <div class="navbar-start gap-2">
-<div class="flex-none lg:hidden">
-    <label for="my-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
-        <i class="fas fa-bars text-xl text-black"></i>
-    </label>
-</div>
+                <div class="flex-none lg:hidden">
+                    <label for="my-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
+                        <i class="fas fa-bars text-xl text-black"></i>
+                    </label>
+                </div>
                 <!-- Navbar Brand logo -->
                 <img class="w-24 md:w-32 lg:w-48 h-auto tracking-tighter" src="/images/logo-removed.png"
                     alt="Body & Co" />
