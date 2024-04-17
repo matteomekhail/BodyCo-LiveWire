@@ -1,4 +1,4 @@
-<div class="bg-[#EFE9E3] pt-20 md:pb-10">
+<div class="bg-[#EFE9E3] md:pb-10">
     <h2 class=" text-center text-4xl font-semibold text-base-content/60 pb-10">
         OUR SERVICES
     </h2>

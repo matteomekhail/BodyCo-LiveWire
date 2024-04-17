@@ -5,12 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --primary-color: #a17764;
-}
-* {
-    font-family: 'Ojuju', sans-serif;
-}
+
 
 .subtitle {
     font-size: 1em;
@@ -68,7 +63,8 @@
     margin-left: 20px;
     position: relative;
     transition: box-shadow 0.3s ease;
-    border: 2px dashed white; /* Aggiunto il bordo bianco tratteggiato */
+    border: 2px dashed white;
+    /* Aggiunto il bordo bianco tratteggiato */
 }
 
 .card-container:hover {
@@ -162,8 +158,10 @@
 .sauna-membership,
 .cryo-package,
 .infinity-sculpt-package {
-    border-top-left-radius: 200px; /* Adjust this value as needed */
-    border-top-right-radius: 200px; /* Adjust this value as needed */
+    border-top-left-radius: 200px;
+    /* Adjust this value as needed */
+    border-top-right-radius: 200px;
+    /* Adjust this value as needed */
 }
 
 .map-container {
@@ -180,4 +178,31 @@
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+
+.galada-regular {
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: avenir;
+    src: url("../../public/fonts/avenir_roman_12.otf");
+}
+
+@font-face {
+    font-family: letter-gothic-std;
+    src: url("../../public/fonts/LetterGothicStd.otf");
+}
+
+* {
+    font-family: 'avenir', sans-serif;
+}
+
+
+.subheader {
+    font-family: 'letter-gothic-std', sans-serif;
 }

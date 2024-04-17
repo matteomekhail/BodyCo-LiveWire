@@ -47,5 +47,11 @@ Route::get('/facial', function () {
 Route::get('/sculpt', function () {
     return view('livewire.pages.sculptPage');
 });
+Route::get('/laser', function () {
+    return view('livewire.pages.laserpage');
+});
+Route::get('/massage', function () {
+    return view('livewire.pages.massagepage');
+});
 
 require __DIR__.'/auth.php';

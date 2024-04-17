@@ -14,7 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
     <script src="
               https://cdn.jsdelivr.net/npm/card3d@2.6.5/dist/card3d.min.js
-            "></script>
+            "></script>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer />
 
 </head>
 
@@ -27,17 +29,17 @@
             id="timelyWidget" class="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4"
             style="height:600px;border:none"></iframe>
         <br>
-        <div
+        <!-- <div
             class="p-6 max-w-sm mx-auto bg-gradient-to-r from-warmGray-300 via-warmGray-500 to-warmGray-700 rounded-xl shadow-md flex items-center space-x-4 text-white">
             <div class="flex-shrink-0">
                 <img class="h-12 w-12" src="https://icon-library.com/images/membership-icon/membership-icon-10.jpg"
                     alt="Membership Icon">
             </div>
-            <div>
+           <div>
                 <h1 class="text-2xl font-extrabold mb-2 text-[#a17764]"> Have a membership? </h1>
                 <a href="/MembershipBooking" class="btn btn-rose hover:bg-[#a17764] hover:text-white mt-1"> Book your
                     FREE appointment here instead </a>
-            </div>
+            </div> -->
         </div>
     </div>
     @include('components.footer')

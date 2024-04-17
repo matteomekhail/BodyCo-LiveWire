@@ -1,15 +1,13 @@
-<section class="py-8 lg:py-20 bg-[#efe9e4]" id="home">
-
+<section class="py-8 lg:py-20 bg-[#ffffff]" id="home">
     <div class="pre-post-care p-6 rounded-lg">
-        <h1 class="text-4xl font-bold mb-6 text-[#A97561] text-center pt-40">Pre and Post Care Instructions</h1>
-
-        <div class="grid md:grid-cols-2 gap-10 md:px-60 py-10">
+        <h1 class="text-5xl font-bold mb-6 text-[#A97561] text-center pt-40  subheader">Pre and Post Care Instructions</h1>
+        <div class="grid md:grid-cols-2 gap-10 md:px-60 py-10 text-[#333]">
             <!-- Infinity Sculpt -->
             <div class="w-full md:pr-10 md:text-left">
-                <h2 class="text-2xl font-semibold mb-4 text-[#A97561]">Pre- infinity sculpt instructions</h2>
-                <h3 class="text-xl font-semibold mb-2 text-black">Please read our information about the sculpt to see if
+                <h2 class="text-3xl font-semibold mb-4 text-[#A97561]  subheader">Pre- infinity sculpt instructions</h2>
+                <h3 class="text-2xl font-semibold mb-2">Please read our information about the sculpt to see if
                     you're eligible to have the treatment done:</h3>
-                <ul class="list-disc list-inside mb-4 text-black">
+                <ul class="list-disc list-inside mb-4 space-y-2">
                     <li>Do wear comfortable clothing on the day of treatment so that treatment areas can be easily
                         accessed</li>
                     <li>Do remove all jewellery and electronic devices prior to treatment</li>
@@ -19,7 +17,7 @@
                         treatment area in the last year</li>
                     <li>Keep your body hydrated</li>
                 </ul>
-                <h3 class="text-xl font-semibold mb-2 text-black">Post-infinity sculpt ultra instructions:</h3>
+                <h3 class="text-xl font-semibold mb-2 text-black ">Post-infinity sculpt ultra instructions:</h3>
                 <ul class="list-disc list-inside text-black">
                     <li>After the treatment, do resume normal activities</li>
                     <li>You may experience some soreness in the muscles over the next few days</li>
@@ -36,7 +34,7 @@
             </div>
             <!-- Lash Lift -->
             <div class="w-full md:pr-10 md:text-left">
-                <h2 class="text-2xl font-semibold mb-4 text-[#A97561]">Lash Lift</h2>
+                <h2 class="text-3xl font-semibold mb-4 text-[#A97561]  subheader">Lash Lift</h2>
                 <h3 class="text-xl font-semibold mb-2 text-black">Pre care:</h3>
                 <ul class="list-disc list-inside mb-4 text-black">
                     <li>Please come to your appointment with no makeup</li>
@@ -55,7 +53,7 @@
             </div>
             <!-- Brow Lamination -->
             <div class="w-full md:pr-10 md:text-left">
-                <h2 class="text-2xl font-semibold mb-4 text-[#A97561]">Brow Lamination</h2>
+                <h2 class="text-3xl font-semibold mb-4 text-[#A97561]  subheader">Brow Lamination</h2>
                 <h3 class="text-xl font-semibold mb-2 text-black">Pre care:</h3>
                 <ul class="list-disc list-inside mb-4 text-black">
                     <li>Must wait 8 weeks before getting your next brow lamination</li>
@@ -73,7 +71,7 @@
             </div>
             <!-- Henna brow -->
             <div class="w-full md:pr-10 md:text-left">
-                <h2 class="text-2xl font-semibold mb-4 text-[#A97561]">Henna brow</h2>
+                <h2 class="text-3xl font-semibold mb-4 text-[#A97561]  subheader">Henna brow</h2>
                 <h3 class="text-xl font-semibold mb-2 text-black">Pre care:</h3>
                 <ul class="list-disc list-inside mb-4 text-black">
                     <li>Please come to your appointment with no makeup</li>
@@ -92,10 +90,6 @@
                     <li>Exposure to the sun/UV light for long periods can cause the pigment to fade quicker</li>
                 </ul>
             </div>
-
-
         </div>
-
     </div>
-
 </section>

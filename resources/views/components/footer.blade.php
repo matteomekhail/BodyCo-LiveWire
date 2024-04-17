@@ -1,4 +1,4 @@
-<footer class="relative after:shadow-md after:absolute bg-[#A97561] pt-12" id="visitUs">
+<footer class="relative after:shadow-md after:absolute bg-[#B37456] pt-12" id="visitUs">
     <div class="container mx-auto w-full max-w-screen-xl px-4 ">
         <div class="flex flex-wrap justify-between mb-8">
 
@@ -9,7 +9,7 @@
             </div>
             <div>
                 <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Socials</h2>
-                <ul class="font-medium text-gray-500">
+                <ul class="font-medium text-gray-700">
                     <li class="mb-4">
                         <a href="https://www.instagram.com/bodycobeautyandwellness" class="hover:underline">Instagram</a>
                     </li>

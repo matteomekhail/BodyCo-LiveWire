@@ -1,4 +1,4 @@
-<div class="visit-us-section py-8 bg-[#EFE9E4] text-[#333333] rounded-none bottom-shadow">
+<div class="visit-us-section py-8 bg-[#ffffff] text-[#333333] rounded-none bottom-shadow">
     <div class="container mx-auto px-4 flex flex-col-reverse lg:flex-row items-stretch">
         <!-- Google Map -->
         <div class="google-map mb-4 lg:mb-0 lg:order-1 lg:w-1/2 lg:pr-4">
@@ -11,23 +11,22 @@
         </div>
         <!-- Contact Info -->
         <div
-            class="contact-info pt-20 grid grid-cols-1 gap-4 lg:ml-72 lg:order-2 lg:w-1/4 text-center border-2 border-black border-opacity-30 mx-auto rounded-t-full mb-8 h-auto mt-10 pr-10 pl-10 border-dashed">
+            class="contact-info pt-24 grid grid-cols-1 gap-4 lg:ml-72 lg:order-2 lg:w-1/4 text-center border-2 border-black border-opacity-30 mx-auto rounded-t-full mb-8 h-auto mt-10 pr-10 pl-10 border-dashed">
             <div>
-                <h3 class="text-lg lg:text-xl font-bold mb-2 text-[#EFE9E4]">Address</h3>
+                <h3 class="text-lg lg:text-xl font-bold mb-2 text-black  subheader">Address</h3>
                 <p class="text-black">Shop 3N 351 Oran Park Dr, Oran Park 2570</p>
             </div>
             <div>
-                <h3 class="text-lg lg:text-xl font-bold mb-2 text-[#EFE9E4]">Hours</h3>
+                <h3 class="text-lg lg:text-xl font-bold mb-2 text-black  subheader">Hours</h3>
                 <p class="text-black">Mon - Fri: 9:00 AM - 5:30 PM</p>
                 <p class="text-black">Thursday: 9:00 AM - 9:00 PM</p>
                 <p class="text-black">Saturday: 9:00 AM - 5:00 PM</p>
                 <p class="text-black">Sunday: 10:00 AM - 4:00 PM</p>
             </div>
             <div>
-                <h3 class="text-lg lg:text-xl font-bold mb-2 text-[#EFE9E4]">Email</h3>
-                <p class="text-black">bodycobeautyandwellness@gmail.com</p>
+                <h3 class="text-lg lg:text-xl font-bold mb-2 text-black  subheader">Email</h3>
+                <p class="text-black mb-4">bodycobeautyandwellness@gmail.com</p>
             </div>
-            <br class="mobile-only" />
         </div>
     </div>
 </div>
